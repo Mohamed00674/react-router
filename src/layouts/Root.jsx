@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink ,Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 function Root() {
   return (
@@ -10,10 +10,10 @@ function Root() {
           <NavLink to="/">home</NavLink>
           <NavLink to="about">about</NavLink>
         </nav>
-          </header>
-          <main>
-              <Outlet/>
-          </main>
+      </header>
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }

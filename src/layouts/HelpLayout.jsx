@@ -9,11 +9,11 @@ function HelpLayout() {
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, maiores.
       </p>
       <nav>
-        <NavLink to="faq">view the faq</NavLink>
-        <NavLink to="contact">view the contact</NavLink>
+        <NavLink to="faq"> FAQ</NavLink>
+        <NavLink to="contact"> Contact</NavLink>
       </nav>
       <Outlet />
-    </div>
+    </div> 
   );
 }
 

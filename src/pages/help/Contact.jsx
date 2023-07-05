@@ -1,4 +1,5 @@
- function Contact() {
+function Contact() {
+   
   return (
     <div className="contact">
       <h3>Contact Us</h3>

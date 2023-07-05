@@ -9,6 +9,8 @@ function Root() {
           <h1>routers</h1>
           <NavLink to="/">home</NavLink>
           <NavLink to="about">about</NavLink>
+          <NavLink to="/help">Help</NavLink>
+          <NavLink to="/Careers">Career</NavLink>
         </nav>
       </header>
       <main>
